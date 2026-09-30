@@ -1,14 +1,11 @@
-body {
-    background-color: powderblue;
-  }
-  h1 {
-    color: blue;
-  }
-  p {
-    color: red;
-  }
+h1 {
+  color: blue;
+}
+p {
+  color: rgb(10, 2, 39);
+}
 .topnav {
-  background-color: #333;
+  background-color: #341f38;
   overflow: hidden;
 }
 .topnav a {
@@ -24,6 +21,23 @@ body {
   color: black;
 }
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #aa049c;
   color: white;
+}
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+header {
+  min-height: 50px;
+  background: lightcyan;
+}
+footer {
+  min-height: 50px;
+  background: PapayaWhip;
+}
+main {
+  flex: 1;
 }
